@@ -8,7 +8,6 @@ headers = {'Content-Type': 'application/json', 'Accept': 'application/json', 'Au
 
 def create_folder(path):
     get_status = requests.get(URL,headers=headers)
-    print(get_status)
     res = requests.put(f'{URL}?path={path}', headers=headers)   
     if  res.status_code == 201:
       print(f'Создали папку {path}')  
