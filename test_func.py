@@ -1,4 +1,4 @@
-from func import people,shelf
+from func import people,list,shelf
 import unittest
 
 class TestFunction(unittest.TestCase):
