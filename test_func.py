@@ -3,12 +3,12 @@ import unittest
 
 class TestFunction(unittest.TestCase):
     def test_people(self):
-        result = people('11-2')
-        self.assertEqual(result,"Геннадий Покемонов")
+        res = people('11-2')
+        self.assertEqual(res,"Геннадий Покемонов")
     def test_list(self):
        for doc in documents:
-       res = list()    
-       self.assertEqual(res, print(doc['type'], doc['number'], doc['name']))
+       res_1 = list()    
+       self.assertEqual(res_1, print(doc['type'], doc['number'], doc['name']))
     def test_shelf(self):
-        result_2 = shelf('10006')
-        self.assertEqual(result_2,'2')
+        res_2 = shelf('10006')
+        self.assertEqual(res_2,'2')
