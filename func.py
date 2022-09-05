@@ -17,7 +17,7 @@ def people(number):
             return doc['name']
 
 
-def list(l):
+def list():
     for doc in documents:
         print(doc['type'], doc['number'], doc['name'])
     return doc
